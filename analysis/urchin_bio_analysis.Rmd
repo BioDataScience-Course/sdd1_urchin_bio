@@ -7,9 +7,11 @@ output: html_notebook
 
 ```{r setups}
 SciViews::R
+options(data.io_lang = "fr")
 ```
 
+
 ```{r}
-bio <- read("../data/biometry_2014.xlsx")
+urchin_bio <- read(package = "data.io", "urchin_bio")
 ```
 
