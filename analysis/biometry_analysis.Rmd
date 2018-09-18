@@ -1,0 +1,15 @@
+---
+title: "..."
+author: "..."
+date: "..."
+output: html_notebook
+---
+
+```{r setups}
+SciViews::R
+```
+
+```{r}
+bio <- read("../data/biometry_2014.xlsx")
+```
+
