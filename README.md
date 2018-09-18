@@ -11,7 +11,9 @@ Vous trouverez des informations importantes via la fonction
 about("urchin_bio")
 ```
 
-### Module 2 : Visualisation graphique à l'aide du nuage de points.
+## Module 2 
+
+### Visualisation graphique à l'aide du nuage de points.
 
 Réalisez votre propre script et réalisez les graphiques suivants :
 
