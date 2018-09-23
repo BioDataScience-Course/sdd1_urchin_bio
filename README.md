@@ -1,44 +1,42 @@
-# Travaux pratiques sur la science des données : visualisation et inférence
-## Biométrie de *Paracentrotus lividus* Lamarck (1816)
+# Biométrie de *Paracentrotus lividus* Lamarck (1816)
 
 ## Introduction
 
 Les données employées dans le cadre de cette étude proviennent des recherches du professeur Philippe Grosjean portant sur la croissance de *Paracentrotus lividus* Lamarck (1816). 
 
-Vous trouverez des informations importantes via la fonction 
+Vous trouverez des informations importantes depuis R comme ceci :
 
 ```
-about("urchin_bio")
+?urchin_bio
 ```
 
-## Module 2 
+## Instructions
 
-### Visualisation graphique à l'aide du nuage de points.
+Vous pouvez vous inspirer d'un exemple d'analyse sur le jeu de données `iris`, voir [sdd1_iris](https://github.com/BioDataScience-Course/sdd1_iris).
 
-Réalisez votre propre script et réalisez les graphiques suivants :
 
-- Représentez la variation de la hauteur en fonction de la masse des oursins
+### Partie 1 : travail avec les scripts R
 
-- Représentez la variation des parties solides en fonction du poids immergés des oursins
+- Ouvrez /R/urchin_bio.R
 
-- Explorez par vous-même le jeu de données urchin_bio qui contient pas moins de 19 variables que vous pouvez tentez d’associer graphiquement. Réalisez au moins 5 graphiques différents.
+- Etudiez le contenu du fichier, et voyez l'aide en ligne
 
-Vous trouvez à votre disposition dans le dossier `R` 
+- Représentez la hauteur en fonction de la masse des oursins
 
-- Un script à compléter portant sur le jeu de données `urchin_bio`
+- Représentez les parties solides en fonction de la masse immergées des oursins
 
-Un exemple de script portant sur le jeu de données `iris` se trouve dans le dossier R du projet [sdd1_iris](https://github.com/BioDataScience-Course/sdd1_iris).
+- Explorez par vous-même le jeu de données urchin qui contient pas moins de 19 variables que vous pouvez représenter graphiquement. Réalisez au moins 5 graphiques différents.
 
-### Intégration des graphiques dans un rapport : Rmarkdown.
 
-Vous trouvez à votre disposition dans le dossier `analysis`
+### Partie 2 : rapport R Markdown
 
-- Un fichier `urchin_biom_analysis.Rmd`, analysez le jeu de données `urchin_bio`
+- Un embryon de rapport se trouve dans le sous-dossier `analysis`
 
-- Intégrez vos graphiques les plus pertinent dans la section résultat de votre rapport d'analyse. 
-- Débutez la rédaction de votre rapport en apportant une attention toute particulière à la rédaction correcte d'un rapport scientifique
+- Insérez vos graphiques les plus pertinents (issu de votre travail dan la partie 1) dans la section résultat de votre rapport d'analyse. 
+- Débutez la rédaction de votre rapport en apportant une attention toute particulière à la structure et au style scientifique (inspirez-vous du rapport sur `iris`).
 
-Un exemple de rapport portant sur le jeu de données `iris` se trouve dans le dossier analysis du projet [sdd1_iris](https://github.com/BioDataScience-Course/sdd1_iris).
+**Bonus :**
 
-**Bonus : Tentez d'ajouter une image dans votre introduction de rapport**
+- Ajoutez une ou deux images dans votre introduction de rapport (vous trouverez ces images dans le sous-dossier `figures`).
 
+- Citez la référence bibliographique qui se trouve dans le sous-dossier `bibliography`.
